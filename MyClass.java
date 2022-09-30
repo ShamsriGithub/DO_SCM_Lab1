@@ -15,6 +15,13 @@ public class MyClass {
         int c= a+b;
         System.out.println("Addition is:" + c);
     }
+    public void div(int x, int y)
+    {
+        a=x;
+        b=y;
+        int c= a/b;
+        System.out.println("Division is:" + c);
+    }
     public static void main(String args[])
     {
         MyClass ob= new MyClass();
